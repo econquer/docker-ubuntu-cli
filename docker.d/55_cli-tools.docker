@@ -1,0 +1,5 @@
+# cli-tools
+
+RUN apt-get install -y curl vim htop
+RUN apt-get install -y jq
+

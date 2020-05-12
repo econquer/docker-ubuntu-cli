@@ -1,0 +1,9 @@
+# packages.docker
+
+RUN sed -i 's/archive.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list
+
+RUN apt-get update
+RUN apt-get dist-upgrade -y 
+RUN apt-get install -y apt-utils
+
+
